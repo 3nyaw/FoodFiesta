@@ -1,0 +1,214 @@
+.content-section {
+    padding-top: 100px;
+    background-color: #fbefe7;
+    padding-bottom: 20px;
+}
+
+.styled-hr {
+    border: none;
+    width: 90%;
+    height: 3px;
+    background-color: #fc7b25;
+    margin: 40px auto;
+}
+
+.menu-header {
+    width: 100%;
+    padding: 150px 0;
+    background-image: url('img/foodfiesta3.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.menu-header h1 {
+    font-size: 5em;
+    color: #693f29;
+    margin: 0 0 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 20px;
+    width: 75%;
+    border-radius: 30px;
+    background-color: #f6ddc2;
+    border: none;
+}
+
+.cart-icon {
+    width: 60px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 550px;
+    background-color: #ffd4a5;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        width: 45%;
+    }
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #333;
+}
+
+.price {
+    width: 600px;
+    font-size: 1.3em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.ratings {
+    margin-bottom: 15px;
+}
+
+.ratings .star {
+    color: #ff8c00;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fc7b25;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e64e00;
+}
+
+.champorado img {
+    width: 375px;
+    padding-bottom: 10px;
+}
+
+.longganisa img {
+    width: 450px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.tocino img {
+    width: 450px;
+    margin-top: 50px;
+    padding-bottom: px;
+}
+
+.sinigang img {
+    width: 400px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+.bulalo img {
+    width: 475px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+.kinilaw img {
+    width: 350px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.lumpia img {
+    width: 500px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.halohalo img {
+    width: 350px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+.puto img {
+    width: 575px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.kare-kare img {
+    width: 500px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.chicken-adobo img {
+    width: 405px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pakbet img {
+    width: 450px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}

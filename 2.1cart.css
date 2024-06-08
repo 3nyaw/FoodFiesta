@@ -1,0 +1,179 @@
+.content-section {
+    margin-top: 20px;
+    padding-top: 100px;
+    background-color: #fbefe7;
+    padding-bottom: 50px;
+
+}
+
+.cart.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #fc7b25;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: #e3681e;
+}
+
+.cart {
+    background-color: #ffd4a5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.cart h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 2px solid #9e9e9e;
+    font-weight: bold;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.item-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.item-img img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.item-info {
+    flex-grow: 1;
+    flex: 1;
+    margin-right: 100px;
+    width: 250px;
+}
+
+.item-info p {
+    width: 60%;
+}
+
+.item-quantity {
+    margin-right: 410px;
+}
+
+.item-price {
+    margin-right: 450px;
+}
+
+.item-price p,
+.item-subtotal p {
+    margin: 0;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-btn {
+    background-color: #fc7b25;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity-btn:hover {
+    background-color: #e3681e;
+}
+
+.quantity-text {
+    margin: 0 10px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid #9e9e9e;
+    font-weight: bold;
+}
+
+.discount-form {
+    display: flex;
+    align-items: center;
+}
+
+.discount-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.discount-form button {
+    padding: 8px 20px;
+    margin: 10px;
+    background-color: #fc7b25;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.discount-form button:hover {
+    background-color: #e3681e;
+}
+
+.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #fc7b25;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.checkout-btn:hover {
+    background-color: #e3681e;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | FoodFiesta</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="2menu.css"></head>
+    <link rel="stylesheet" href="2.1cart.css">
+</head>
+<body>
+    <header>
+        <div class="logo-name">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <h1 class="header-name">FoodFiesta</h1>
+        </div>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="1home.html">HOME</a></li>
+                <li><a class="active" href="2menu.html">MENU</a></li>
+                <li><a href="3about.html">ABOUT</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">ACCOUNT</a>
+                    <div class="dropdown-content">
+                        <a href="4account.html">Manage My Account</a>
+                        <a href="login.html">Logout</a>
+                    </div>
+                </li>             
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-section">
+        <a href="2menu.html" class="back-btn">Back to Menu</a>
+        <section class="cart container">
+            <h2>Shopping Cart</h2>
+            <div class="cart-header">
+                <span>Product</span>
+                <span>Quantity</span>
+                <span>Price</span>
+                <span>Subtotal</span>
+            </div>
+            <ul class="cart-items">
+                <li class="cart-item">
+                    <div class="item-details">
+                        <div class="item-row">
+                            <div class="item-img">
+                                <img src="img/champorado.png" alt="Product Image">
+                            </div>
+                            <div class="item-info">
+                                <h3>Delicious Champorado</h3>
+                                <p>Champorado is a sweet chocolate rice porridge...</p>
+                            </div>
+                            <div class="item-quantity">
+                                <div class="quantity">
+                                    <button class="quantity-btn minus-btn">-</button>
+                                    <span class="quantity-text">2</span>
+                                    <button class="quantity-btn plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p>$10</p>
+                            </div>
+                            <div class="item-subtotal">
+                                <p>$20</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cart-item">
+                    <div class="item-details">
+                        <div class="item-row">
+                            <div class="item-img">
+                                <img src="img/sinigang.png" alt="Product Image">
+                            </div>
+                            <div class="item-info">
+                                <h3>Delicious Sinigang</h3>
+                                <p>Sinigang is a sour Filipino soup or stew...</p>
+                            </div>
+                            <div class="item-quantity">
+                                <div class="quantity">
+                                    <button class="quantity-btn minus-btn">-</button>
+                                    <span class="quantity-text">1</span>
+                                    <button class="quantity-btn plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p>$20</p>
+                            </div>
+                            <div class="item-subtotal">
+                                <p>$20</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cart-item">
+                    <div class="item-details">
+                        <div class="item-row">
+                            <div class="item-img">
+                                <img src="img/halohalo.png" alt="Product Image">
+                            </div>
+                            <div class="item-info">
+                                <h3>Delicious Halo-halo</h3>
+                                <p>Halo-Halo is a popular Filipino dessert...</p>
+                            </div>
+                            <div class="item-quantity">
+                                <div class="quantity">
+                                    <button class="quantity-btn minus-btn">-</button>
+                                    <span class="quantity-text">3</span>
+                                    <button class="quantity-btn plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p>$10</p>
+                            </div>
+                            <div class="item-subtotal">
+                                <p>$30</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cart-item">
+                    <div class="item-details">
+                        <div class="item-row">
+                            <div class="item-img">
+                                <img src="img/karekare.png" alt="Product Image">
+                            </div>
+                            <div class="item-info">
+                                <h3>Delicious Kare-kare</h3>
+                                <p>Kare-Kare is a traditional Filipino stew...</p>
+                            </div>
+                            <div class="item-quantity">
+                                <div class="quantity">
+                                    <button class="quantity-btn minus-btn">-</button>
+                                    <span class="quantity-text">1</span>
+                                    <button class="quantity-btn plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p>$10</p>
+                            </div>
+                            <div class="item-subtotal">
+                                <p>$10</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="cart-total">
+                <p>Total: $80</p>
+                <form action="2.1cart.html" method="get" class="discount-form">
+                    <input type="text" placeholder="Enter discount code">
+                    <button type="submit">Apply</button>
+                </form>
+            </div>
+            <a href="2menu.html"><button class="checkout-btn">Proceed to Checkout</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section logo-info">
+                <img src="img/logo.png" alt="FoodFiesta Logo" class="footer-logo">
+                <h1 class="footer-name">FoodFiesta</h1>
+                <p>Savoring Culinary Delights <br> with Every Click</p>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="1home.html">Home</a></li>
+                    <li><a class="active" href="2menu.html">Menu</a></li>
+                    <li><a href="3about.html">About</a></li>
+                    <li><a href="4contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="help.html">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <p>1234 FoodFiesta Street, Flavor Town, FT 56789</p>
+                <p>Email: info@foodfiesta.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/johnenyawL/" target="_blank">
+                            <img src="img/fb_icon.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/johnenyaw/" target="_blank">
+                            <img src="img/ig_icon.png" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/zjohnwayne" target="_blank">
+                            <img src="img/twt_Icon.png" alt="Twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FoodFiesta. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

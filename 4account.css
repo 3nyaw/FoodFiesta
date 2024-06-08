@@ -1,0 +1,82 @@
+body {
+    background-color: #fbefe7;
+
+}
+
+.content-section {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-label {
+    background-color: #ffd4a5;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-label h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-profile img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.address-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.address {
+    width: 45%;
+    padding: 20px 0px 20px 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.address button {
+    padding: 8px 16px;
+    background-color: #ffd4a5;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.address button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.address h3 {
+    margin-top: 0;
+}
+
+.address p {
+    margin-bottom: 5px;
+}
+
+.address,
+.voucher-section {
+    background-color: #f9e7d9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.voucher-section {
+    padding: 40px;
+}
